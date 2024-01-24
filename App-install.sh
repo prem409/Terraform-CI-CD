@@ -4,7 +4,7 @@ sudo yum update -y
 sudo yum install -y httpd
 sudo systemctl enable httpd
 sudo service httpd start  
-sudo echo '<h1>Welcome to DevOps-Yogi - APP-1</h1>' | sudo tee /var/www/html/index.html
+sudo echo '<h1>Welcome to prem - APP-1</h1>' | sudo tee /var/www/html/index.html
 sudo mkdir /var/www/html/app1
 sudo echo '<!DOCTYPE html>   
 <html>   
